@@ -21,7 +21,7 @@ function read_image_version() {
 
 function read_mongo_version() {
 
-  # Reads `MONGO_VERSION` from config/overleaf.rc if to set the correct mongo shell
+  # Reads `MONGO_VERSION` from config/overleaf.rc to set the correct mongo shell
   # as $MONGOSH. If `MONGO_VERSION` is not defined it tries to extract the version
   # from `MONGO_IMAGE`, issuing a warning if it's a non-stock image.
 
